@@ -21,6 +21,7 @@
                         clifford: '#da373d',
                         'biker-btn': '#E76F51',
                         'biker-banner-bg': 'rgba(231, 111, 81, 0.10)',
+                        'biker-text-color': '#E76F51',
                     }
                 }
             }
@@ -84,7 +85,7 @@
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-30">
                     <div class="space-y-7 flex-1">
-                        <h2 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
+                        <h2 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                         <p>Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         <button class="btn bg-biker-btn text-white">Purchase</button>
@@ -101,7 +102,7 @@
             <div id="slide2" class="carousel-item relative w-full">
                 <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-30">
                     <div class="space-y-7 flex-1">
-                        <h2 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
+                        <h2 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                         <p>Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         <button class="btn bg-biker-btn text-white">Purchase</button>
@@ -118,7 +119,7 @@
             <div id="slide3" class="carousel-item relative w-full">
                 <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-30">
                     <div class="space-y-7 flex-1">
-                        <h2 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
+                        <h2 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                         <p>Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         <button class="btn bg-biker-btn text-white">Purchase</button>
@@ -135,7 +136,7 @@
             <div id="slide4" class="carousel-item relative w-full">
                 <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-30">
                     <div class="space-y-7 flex-1">
-                        <h2 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
+                        <h2 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                         <p>Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                         <button class="btn bg-biker-btn text-white">Purchase</button>
@@ -152,7 +153,58 @@
         </div>
     </header>
     <main class="md:container md:mx-auto">
-
+        <!-- featured bike -->
+        <section class="my-20">
+            <div class="text-center">
+                <h3 class="text-4xl font-semibold">Fetured Bikes In This Year</h3>
+                <p class="pb-11 text-biker-text-color">Best bike collection</p>
+            </div>
+            <div class="flex flex-col lg:flex-row md:flex-col gap-32 justify-center">
+                <img src="./images/others/extrabike.png" class="w-[288px]">
+                <img src="./images/others/feature-bike.png" class="w-[288px]">
+                <img src="./images/others/extrabike.png" class="w-[288px]">
+            </div>
+        </section>
+        <!-- latest news -->
+        <section>
+            <h3 class="text-5xl font-semibold text-center">Latest Bikes</h3>
+            <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="/images/others/latest1.png" alt="bikes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                      <p class="text-1xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-biker-btn text-white-500">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="/images/others/latest2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                      <p class="text-1xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-biker-btn text-white-500">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="/images/others/latest3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                      <p class="text-1xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-biker-btn text-white-500">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- happy clients -->
+        <section class="my-24">
+            <h3 class="text-5xl mb-12 text-semibold text-center">Happy <span class="text-biker-text-color">Clients says</span></h3>
+        </section>
     </main>
     <footer>
 
